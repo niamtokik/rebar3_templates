@@ -1,5 +1,5 @@
 %%%-------------------------------------------------------------------
-%%% @author {{author_name}} <{{author_mail}}>
+%%% @author {{author_name}} <{{author_email}}>
 %%% @copyright {{copyright_year}} (c) {{author_name}}
 %%%
 %%% @doc

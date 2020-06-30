@@ -26,6 +26,12 @@
 {template, "_app/src/name_sup.erl", "{{name}}/src/{{name}}_sup.erl"}.
 {chmod, "{{name}}/src/{{name}}_sup.erl", 8#644}.
 
+{template, "_app/src/name_server.erl", "{{name}}/src/{{name}}_server.erl"}.
+{chmod, "{{name}}/src/{{name}}_server.erl", 8#644}.
+
+{template, "_app/src/name_statem.erl", "{{name}}/src/{{name}}_statem.erl"}.
+{chmod, "{{name}}/src/{{name}}_statem.erl", 8#644}.
+
 {template, "_app/test/name_SUITE.erl", "{{name}}/test/{{name}}_SUITE.erl"}.
 {chmod, "{{name}}/test/{{name}}_SUITE.erl", 8#644}.
 

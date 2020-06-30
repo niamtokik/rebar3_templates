@@ -1,0 +1,30 @@
+{description, "Custom app with ct test"}.
+{variables, [
+  {app_dir, ".", "The directory where the application goes"}
+  ]
+}.
+
+{dir, "{{ appdir }}/src"}.
+{dir, "{{ appdir }}/test"}.
+
+{file, "_app/README.md", "README.md"}.
+{chmod, "README", 8#644}.
+
+{file, "_app/LICENSE", "LICENSE"}.
+{chmod, "LICENSE", 8#644}.
+
+{file, "_app/rebar.config", "rebar.config"}.
+{chmod, "rebar.config", 8#644}.
+
+{file, "_app/src/name.app.src", "src/{{ name }}.app.src"}.
+{chmod, "src/{{ name }}.app.src", 8#644}.
+
+{file, "_app/src/name_.app.erl", "src/{{ name }}_app.erl"}.
+{chmod, "src/{{ name }}_app.erl", 8#644}.
+
+{file, "_app/src/name_sup.erl", "src/{{ name }}_sup.erl"}.
+{chmod, "src/{{ name }}_sup.erl", 8#644}.
+
+{file, "_app/test/name_SUITE.erl", "test/{{ name }}_SUITE.erl"}.
+{chmod, "test/{{ name }}_SUITE.erl", 8#644}.
+

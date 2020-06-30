@@ -1,6 +1,6 @@
-# {{ name }}
+# {{name}}
 
-{{ name }} is an application...
+{{name}} is an application...
 
 ## Usage
 

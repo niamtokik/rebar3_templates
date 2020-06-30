@@ -1,11 +1,11 @@
 %%%-------------------------------------------------------------------
-%%% @author {{ author_name }} <{{ author_mail}}>
-%%% @copyright {{ copyright_year}} (c) {{ author_name }}
+%%% @author {{author_name}} <{{author_mail}}>
+%%% @copyright {{copyright_year}} (c) {{author_name}}
 %%%
-%%% @doc {{ name }} main application
+%%% @doc {{name}} main application
 %%% @end
 %%%-------------------------------------------------------------------
--module({{ name }}_app).
+-module({{name}}_app).
 -behaviour(application).
 -export([start/2, stop/1]).
 
@@ -18,7 +18,7 @@
       StartArgs :: term(),
       Return :: pid().
 start(_StartType, _StartArgs) ->
-    {{ name }}_sup:start_link().
+    {{name}}_sup:start_link().
 
 %%--------------------------------------------------------------------
 %% @doc

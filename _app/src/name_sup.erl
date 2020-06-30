@@ -1,11 +1,11 @@
 %%%-------------------------------------------------------------------
-%%% @author {{ author_name }} <{{ author_mail}}>
-%%% @copyright {{ copyright_year}} (c) {{ author_name }}
+%%% @author {{author_name}} <{{author_mail}}>
+%%% @copyright {{copyright_year}} (c) {{author_name}}
 %%%
 %%% @doc
 %%% @end
 %%%-------------------------------------------------------------------
--module({{ name }}_sup).
+-module({{name}}_sup).
 -behaviour(supervisor).
 -export([start_link/0, start_link/1, start_link/2]).
 -export([init/1]).

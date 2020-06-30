@@ -1,5 +1,7 @@
-{description, "Custom app with ct test"}.
-{variables, [] }.
+{description, "Custom app with ct test and c_src directory"}.
+{variables, [
+  {license, "apache-2.0", "default license"}
+]}.
 
 {dir, "{{name}}"}.
 {dir, "{{name}}/src"}.
@@ -9,7 +11,7 @@
 {template, "_app/README.md", "{{name}}/README.md"}.
 {chmod, "{{name}}/README.md", 8#644}.
 
-{template, "_app/LICENSE", "{{name}}/LICENSE"}.
+{template, "_app/LICENSE-apache-2.0", "{{name}}/LICENSE"}.
 {chmod, "{{name}}/LICENSE", 8#644}.
 
 {template, "_app/rebar.config", "{{name}}/rebar.config"}.

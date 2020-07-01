@@ -2,7 +2,7 @@
 %%% @author {{author_name}} <{{author_email}}>
 %%% @copyright {{copyright_year}} (c) {{author_name}}
 %%%
-%%% @doc
+%%% @doc {{name}} application supervisor
 %%% @end
 %%%-------------------------------------------------------------------
 -module({{name}}_sup).

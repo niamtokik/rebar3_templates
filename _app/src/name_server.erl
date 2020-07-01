@@ -2,7 +2,7 @@
 %%% @author {{author_name}} <{{author_email}}>
 %%% @copyright {{copyright_year}} (c) {{author_name}}
 %%%
-%%% @doc
+%%% @doc gen_server template for {{name}} application
 %%% @end
 %%%-------------------------------------------------------------------
 -module({{name}}_server).

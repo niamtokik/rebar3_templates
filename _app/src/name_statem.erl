@@ -2,7 +2,7 @@
 %%% @author {{author_name}} <{{author_email}}>
 %%% @copyright {{copyright_year}} (c) {{author_name}}
 %%%
-%%% @doc
+%%% @doc gen_statem template for {{name}} application
 %%% @end
 %%%-------------------------------------------------------------------
 -module({{name}}_statem).
@@ -106,6 +106,7 @@ start_link(Name, Args, Opts) ->
 
 %%--------------------------------------------------------------------
 %% @doc callback_mode/0
+%% @end
 %%--------------------------------------------------------------------
 -spec callback_mode() -> Return when 
       Return :: atom() | [atom()].

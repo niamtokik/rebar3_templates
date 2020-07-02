@@ -10,6 +10,9 @@
 {dir, "{{name}}/test"}.
 {dir, "{{name}}/c_src"}.
 
+{file, "_app/.gitignore", "{{name}}/.gitignore"}.
+{chmod, "{{name}}/.gitignore", 8#644}.
+
 {template, "_app/README.md", "{{name}}/README.md"}.
 {chmod, "{{name}}/README.md", 8#644}.
 
